@@ -1,0 +1,32 @@
+{
+  "name": "openweather-app",
+  "version": "1.0.0",
+  "description": "Openweather UI",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc ./src/*.ts --outdir ./dist",
+    "serve": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklasschaeffer/openweather-app.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Niklas Schäffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niklasschaeffer/openweather-app/issues"
+  },
+  "homepage": "https://github.com/niklasschaeffer/openweather-app#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.13"
+  }
+}
